@@ -38,6 +38,8 @@ vi.way to restart game.(5,4)
 vii.way to keep track of wins of "dorito"vs"cool 		    ranch". (8,8)
 viii.physics and trajectory of th ball (6,2)
 
+![display](images/priorities.jpg);
+
 ## Game Components
 
 ### Landing Page
