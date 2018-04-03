@@ -55,14 +55,11 @@ function game(){
 		else if (pongPos >= 675) {
 			goBack = true;
 		}
-		else if (pongPos >= 380){
-			goUP = true;
-		}
 
 		else {
 			pongPos++;
 			pBall.style.left= pongPos + 'px';
-			pBall.style.top= pongPos + 'px';
+			// pBall.style.top= pongPos + 'px';
 			
 		}
 	detect();

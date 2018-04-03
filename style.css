@@ -4,8 +4,9 @@
 		height: 400px;
 		width: 700px;
 		border: 5px solid rgb(141,166,191);
-		top: 150px;
-		left: 100px;
+		margin-left: 100px;
+		top: 10px;
+		left: 200px;
 	}
 	
 	.paddle{
@@ -31,7 +32,7 @@
 		background-color: rgb(216,214,214);
 		border: 5px solid rgb(141,166,191);
 		font-size: 20px;
-		color: rgb(141,166,191);
+		color: #3F547F;
 	}
 	#ball {
 		position: absolute;
@@ -41,4 +42,23 @@
 		border-radius: 100%;
 		left: 5px;
 		top: 200px;
+	}
+	.title{
+		font-size: 35pt;
+		text-align: center;
+		color: #3F547F;
+	}
+	.score{
+		margin-left:250px;
+		font-size: 30pt;
+		text-align: center;
+		color: #400000;
+		display: inline-block;
+		word-spacing: 50px;
+		padding: 50px;
+	}
+	.players{
+		font-size: 20pt;
+		text-align: center;
+		color: #400000;
 	}
